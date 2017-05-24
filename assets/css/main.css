@@ -72,6 +72,27 @@ li a:hover:not(.active){
 	margin-left: 1180px;
 }
 
+/*BOTON*/
+#btn{
+	margin-left: 70px;
+	display: block;
+	margin-top: 10px;
+}
+#btn {
+  background: #E54E79;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #00B2A9;
+  text-decoration: none;
+}
+
 
 .formulario
 {
