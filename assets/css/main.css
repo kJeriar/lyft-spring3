@@ -161,6 +161,7 @@ li a:hover:not(.active){
   font-size: 13px;
   padding: 15px 550px 15px 150px;
   text-decoration: none;
+  text-align: center;
 }
 
 #button:hover {
