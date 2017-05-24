@@ -154,23 +154,23 @@ li a:hover:not(.active){
 	
 }
 /*BOTON*/
-#btn{
+#button{
 	margin-left: 70px;
 	display: block;
 	margin-top: 10px;
 }
-#btn {
-  background:#E56385;
+#button {
+  background:#00B2A9;
   border-radius: 13px;
   font-family: Arial;
   color: #ffffff;
   font-size: 13px;
-  padding: 8px 16px 8px 16px;
+  padding: 15px 150px 15px 150px;
   text-decoration: none;
 }
 
-#btn:hover {
-  background: #00B2A9;
+#button:hover {
+  background: #E54E79;
   text-decoration: none;
 }
 
@@ -244,3 +244,10 @@ li a:hover:not(.active){
 	height: 48px;
 	display: inline-block;
 }
+
+/*link juegos*/
+
+/*http://www.paisdelosjuegos.cl/juego/serpiente/big+little+grub.html*/
+
+
+
