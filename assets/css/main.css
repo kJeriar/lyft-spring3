@@ -54,10 +54,10 @@ li a:hover:not(.active){
 }
 
 .img-logo{
-	margin-top: 5px;
+	margin-top: 15px;
 	width: 80px;
 	height: 40px;
-	margin-left: 20px;
+	margin-left: 35px;
 	margin-right: 1245px;
 }
 
@@ -79,7 +79,7 @@ li a:hover:not(.active){
 	margin-top: 10px;
 }
 #btn {
-  background: #E54E79;
+  background:#E56385;
   border-radius: 13px;
   font-family: Arial;
   color: #ffffff;
@@ -92,13 +92,16 @@ li a:hover:not(.active){
   background: #00B2A9;
   text-decoration: none;
 }
+#recorrido{
+	color: #00B2A9;
+}
 
 
 .formulario
 {
 	float: right;
 	position: absolute;
-	width: 400px;
+	width: 800px;
 	height: 300px;
 	top: 250px;
 	margin-left: 1200px;
@@ -135,7 +138,7 @@ li a:hover:not(.active){
 
 .linea-nav h1{
 	padding-top: 0px;
-	margin-left: 550px;
+	margin-left: 800px;
 }
 
 .color2{
@@ -143,7 +146,22 @@ li a:hover:not(.active){
 	padding: 450px;
 	padding-top: 5px;
 }
+/*tamaño del auto*/
+.imagen-auto, .imagen-auto2{
 
+	width: 40px;
+	height: 40px;
+	
+}
+
+.juego{
+
+	width: 1450px;
+	height: 300px;
+	top: 1400px;
+	margin-left: 80px;
+
+}
 
 .rectangulo-juego{
 	float: right;
