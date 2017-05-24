@@ -48,4 +48,25 @@ var tablero=function(){
 
 
 
-   
+   class Auto {
+
+    constructor(posicion_x, posicion_y) {
+        this.posicion_x = posicion_x;
+        this.posicion_y = posicion_y;
+    }
+    avanzar() {
+        return 'avanzando'
+    }
+
+    irIzquierda(tablero) {
+        return 'avanzamos a la izquierda';
+    }
+
+    irDerecha() {
+        return 'avanzamos a la derecha';
+    }
+
+    retroceder() {
+        return 'retrocediendo';
+    }
+}

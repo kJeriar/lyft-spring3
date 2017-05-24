@@ -146,13 +146,7 @@ li a:hover:not(.active){
 	padding: 450px;
 	padding-top: 5px;
 }
-/*tamaño del auto*/
-.imagen-auto, .imagen-auto2{
 
-	width: 40px;
-	height: 40px;
-	
-}
 /*BOTON*/
 #button{
 	margin-left: 70px;
@@ -165,7 +159,7 @@ li a:hover:not(.active){
   font-family: Arial;
   color: #ffffff;
   font-size: 13px;
-  padding: 15px 150px 15px 150px;
+  padding: 15px 550px 15px 150px;
   text-decoration: none;
 }
 
@@ -200,7 +194,7 @@ li a:hover:not(.active){
 	position: absolute;
 	width: 400px;
 	height: 300px;
-	top: 1450px;
+	top: 2550px;
 	margin-left: 180px;
 	margin-right: 250px;
 }
@@ -212,6 +206,19 @@ li a:hover:not(.active){
 	padding-top: 5px;
 }
 
+.name1 {
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    display: inline;
+    margin-top: 100px;    
+    border: none;
+    background-color:#EDE9E2 ;
+    border-bottom: 1px solid #838584 ;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: blue;
+}
 
 #tablero{
 	border: 5px solid #900C3F;
@@ -243,6 +250,12 @@ li a:hover:not(.active){
 	width: 48px;
 	height: 48px;
 	display: inline-block;
+}
+
+#facebook, #twiter, #instagram{
+	width: 40px;
+	height: 40px;
+
 }
 
 /*link juegos*/
