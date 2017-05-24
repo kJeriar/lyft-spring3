@@ -8,3 +8,164 @@ Colors:
 */
 
 
+.hola {
+
+    position: fixed;
+    z-index: 1;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+ul {
+	float: right;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+	position: fixed;
+	background-attachment: fixed;
+}
+
+li{
+	float: right;
+
+  }
+
+li a {
+
+	display: block;
+	color: white;
+	text-align: right;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+li a:hover:not(.active){
+	/*SI EL PULSOR SE POSA SOBRE UN ELEMENTO DEL MENU ESTE CAMBIA DE COLOR*/
+	background-color: #ff7673;
+	/*position: fixed;*/
+}
+
+.img-logo{
+	margin-top: 5px;
+	width: 80px;
+	height: 40px;
+	margin-left: 20px;
+	margin-right: 1245px;
+}
+
+.rectangulo-formulario
+{
+	float: right;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	background-color: #EDE9E2;
+	top: 250px;
+	margin-left: 1180px;
+}
+
+
+.formulario
+{
+	float: right;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 250px;
+	margin-left: 1200px;
+}
+
+.fotos{
+   
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+
+}
+
+.color{
+	background-color: #00B2A9;
+	padding: 50px;
+
+}
+
+.play{
+	background-color: #75726C;
+
+}
+
+.linea-nav{
+	background-color: #EFE3C3;
+	width: 100%;
+	height: 40px;
+	padding: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.linea-nav h1{
+	padding-top: 0px;
+	margin-left: 550px;
+}
+
+.color2{
+	background-color: #00B2A9;
+	padding: 450px;
+	padding-top: 5px;
+}
+
+
+.rectangulo-juego{
+	float: right;
+	position: absolute;
+	width: 1450px;
+	height: 300px;
+	background-color: #EDE9E2;
+	top: 1400px;
+	margin-left: 80px;
+	
+}
+
+.datos-juego{
+
+	float: right;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 1450px;
+	margin-left: 180px;
+	margin-right: 250px;
+}
+
+
+.color3{
+	background-color: #75726C;
+	padding: 2  50px;
+	padding-top: 5px;
+}
+
+
+#tablero{
+	border: 5px solid #900C3F;
+}
+
+.casilla{
+	box-sizing: border-box;
+	display: inline-block;
+	background-color: #581845;
+	color:whitesmoke;
+	padding: 10px;
+	font-family: sans-serif;
+	width: 10%;
+	text-align: center;
+	border: 5px#900c3f solid;
+}
